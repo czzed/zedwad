@@ -27,19 +27,20 @@
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            
         }
 
         .profile-header {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 30px;
+            text-align: center;
+            gap: 20px;
             margin-bottom: 30px;
         }
 
         .profile-img {
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             border: 5px solid var(--secondary-color);
             object-fit: cover;
@@ -49,6 +50,8 @@
             display: flex;
             gap: 15px;
             margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         .socials a {
@@ -77,6 +80,27 @@
         .reading-types {
             color: var(--accent-color);
             font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .profile-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .socials {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hobbies-list {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
     <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
@@ -116,7 +140,7 @@
                 </div>
                 <div>
                     <h3>🎮 Gaming</h3>
-                    <p>Likes to play single player games taht has a good story line</p>
+                    <p>Likes to play single player games that has a good story line</p>
                 </div>
                 <div>
                     <h3>📚 Reading</h3>
