@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction | Christian Zedrick Paz</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="menu-toggle" id="menubtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul id="navLinks">
+            <li><a href="introduction.html" class="active">Introduction</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="exit.html">Exit</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
-        <header class="profile-header">
-            <img src="https://i.imgur.com/6IvHqME.jpeg" alt="Christian Zedrick Paz" class="profile-img">
+        <header class="intro-header">
             <div class="intro-content">
-                <h1>Hello, I'm Zed! 👋</h1>
+                <div class="intro-image">
+                    <img src="https://i.imgur.com/6IvHqME.jpeg" alt="Christian Zedrick Paz" class="profile-img">
+                    <div class="pulse-effect"></div>
+                </div>
+                <h1>Hello, I'm <span class="highlight">Zed</span> <span class="wave">👋</span></h1>
                 <p class="intro-text">
-                    Not everything needs an introduction—some things are meant to be discovered. Click below and see for yourself.
+                    Not everything needs an introduction—some things are meant to be discovered. 
+                    Click below and see for yourself.
                 </p>
-                <a href="introduction.html" class="btn">Explore My Portfolio</a>
+                <div class="intro-actions">
+                    <a href="index.html" class="btn btn-primary">
+                        <i class="ri-arrow-right-line"></i> Explore My Portfolio
+                    </a>
+                </div>
             </div>
         </header>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
