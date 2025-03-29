@@ -3,77 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian Zedrick Paz | Portfolio</title>
+    <title>Introduction | Christian Zedrick Paz</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="menu-toggle" id="menubtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul id="navLinks">
+            <li><a href="introduction.html" class="active">Introduction</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="exit.html">Exit</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
-        <header class="profile-header">
-            <img src="https://i.imgur.com/6IvHqME.jpeg" alt="Christian Zedrick Paz" class="profile-img">
-            <div>
-                <h1>Christian Zedrick P. Paz</h1>
-                <p>🎂 May 06, 2005 (19 years old)<br>
-                📍 Hulo, Pililla, Rizal</p>
-                <div class="socials">
-                    <a href="https://www.facebook.com/share/1QUWVNa1uB/" target="_blank">
-                        <i class="fab fa-facebook"></i> Facebook
-                    </a>
-                    <a href="https://www.instagram.com/czzed" target="_blank">
-                        <i class="fab fa-instagram"></i> Instagram
+        <header class="intro-header">
+            <div class="intro-content">
+                <div class="intro-image">
+                    <img src="https://i.imgur.com/6IvHqME.jpeg" alt="Christian Zedrick Paz" class="profile-img">
+                    <div class="pulse-effect"></div>
+                </div>
+                <h1>Hello, I'm <span class="highlight">Zed</span> <span class="wave">👋</span></h1>
+                <p class="intro-text">
+                    Not everything needs an introduction—some things are meant to be discovered. 
+                    Click below and see for yourself.
+                </p>
+                <div class="intro-actions">
+                    <a href="index.html" class="btn btn-primary">
+                        <i class="ri-arrow-right-line"></i> Explore My Portfolio
                     </a>
                 </div>
             </div>
         </header>
-
-        <section class="section">
-            <h2>📖 About Me</h2>
-            <p>
-                Nothing much. Just a simple guy who enjoys gaming, reading, watching shows, and doing whatever catches my curiosity. I’m not the type to put everything out there, but if you pay attention, you’ll see there’s more to me than meets the eye. 
-            </p>
-            <p>
-                "Naka-180 no scope partida"
-            </p>
-        </section>
-
-        <section class="section">
-            <h2>🎮 Hobbies & Interests</h2>
-            <div class="hobbies-list">
-                <div>
-                    <h3>🎥 Movies</h3>
-                    <p>I like action movies with a bit of comedy and also a fan of animes</p>
-                </div>
-                <div>
-                    <h3>🎮 Gaming</h3>
-                    <p>Likes to play single player games that has a good story line</p>
-                </div>
-                <div>
-                    <h3>📚 Reading</h3>
-                    <p>Avid reader of <span class="reading-types">manga, manhwa,</span> and light novels</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>📚 Education</h2>
-            <p>Bachelor of Science in Computer Science<br>
-            University of Rizal System - Morong Campus<br>
-            2023-Present</p>
-        </section>
-
-        <section class="section">
-            <h2>🛠️ Tasks in progress (Subjects) </h2>
-            <div>
-                <h3>Gender and Society <progress value="100" max="100"></progress></h3>
-                <h3>Software development <progress value="56" max="100"></progress></h3>
-                <h3>Life and Works of Rizal <progress value="100" max="100"></progress></h3>
-            </div>
-            
-            <div class="navigation">
-                <a href="index.html">Go to Introduction Page</a>
-                <a href="exit.html">Go to Exit Page</a>
-            </div>
-        </section>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
