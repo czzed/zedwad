@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction | Christian Zedrick Paz</title>
+    <title>Christian Zedrick Paz | Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6fcf7db48c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,31 +18,107 @@
         </div>
         
         <ul id="navLinks">
-            <li><a href="introduction.html" class="active">Introduction</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exit.html">Exit</a></li>
+            <li><a href="./introduction.html">Introduction</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./exit.html">Exit</a></li>
         </ul>
+
     </nav>
 
+    <!-- Main Content -->
     <div class="container">
-        <header class="intro-header">
-            <div class="intro-content">
-                <div class="intro-image">
-                    <img src="https://i.imgur.com/6IvHqME.jpeg" alt="Christian Zedrick Paz" class="profile-img">
-                    <div class="pulse-effect"></div>
-                </div>
-                <h1>Hello, I'm <span class="highlight">Zed</span> <span class="wave">👋</span></h1>
-                <p class="intro-text">
-                    Not everything needs an introduction—some things are meant to be discovered. 
-                    Click below and see for yourself.
+        <!-- Profile Header -->
+        <header class="profile-header">
+            <img src="https://i.imgur.com/6IvHqME.jpeg" alt="Christian Zedrick Paz" class="profile-img">
+            <div class="profile-info">
+                <h1>Christian Zedrick P. Paz</h1>
+                <p class="profile-details">
+                    <span>🎂 May 06, 2005 (19 years old)</span><br>
+                    <span>📍 Hulo, Pililla, Rizal</span>
                 </p>
-                <div class="intro-actions">
-                    <a href="index.html" class="btn btn-primary">
-                        <i class="ri-arrow-right-line"></i> Explore My Portfolio
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1QUWVNa1uB/" target="_blank">
+                        <i class="ri-facebook-fill"></i> Facebook
+                    </a>
+                    <a href="https://www.instagram.com/czzed" target="_blank">
+                        <i class="ri-instagram-line"></i> Instagram
                     </a>
                 </div>
             </div>
         </header>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>
+                Nothing much. Just a simple guy who enjoys gaming, reading, watching shows, 
+                and doing whatever catches my curiosity. I'm not the type to put everything 
+                out there, but if you pay attention, you'll see there's more to me than meets the eye.
+            </p>
+            <p class="quote">"Naka-180 no scope partida"</p>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section">
+            <h2>🎮 Hobbies & Interests</h2>
+            <div class="hobbies-container">
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎥</div>
+                    <h3>Movies</h3>
+                    <p>I like Fantasy Shows and Movies</p>
+                </div>
+                
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Likes to play single player games that has a good story line</p>
+                </div>
+                
+                <div class="hobby-card">
+                    <div class="hobby-icon">📚</div>
+                    <h3>Reading</h3>
+                    <p>Avid reader of manga, manhwa, and light novels</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <h2>📚 Education</h2>
+            <div class="education-info">
+                <div class="hobby-card">
+                    <p><strong>University of Rizal System - Morong Campus</strong></p>
+                    <p>Bachelor of Science in Computer Science</p>
+                    <p>2023-Present</p>
+                </div>
+                <div class="hobby-card">
+                    <p><strong>Pililla National High School </strong></p>
+                    <p>STEM Strand - Senior High </p>
+                    <p>2021-2023 </p>
+                </div>
+                <div class="hobby-card">
+                    <p><strong>Pililla National High School</strong></p>
+                    <p>Regular Strand - Junior High</p>
+                    <p>2017-2021</p>
+                </div>
+
+                <div class="subjects">
+                    <h3>Task Bar:</h3>
+                    <div class="progress-item">
+                        <span>Reportings</span>
+                        <progress value="80" max="100"></progress>
+                    </div>
+                    <div class="progress-item">
+                        <span>Exams</span>
+                        <progress value="75" max="100"></progress>
+                    </div>
+                    <div class="progress-item">
+                        <span>Projects</span>
+                        <progress value="30" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="main.js"></script>
